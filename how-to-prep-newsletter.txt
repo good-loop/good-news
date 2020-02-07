@@ -1,0 +1,43 @@
+How-To prepare a new "Good News" Newsletter HTML so that it is ready to be hosted online:
+
+01. Inside the <head> section, remove the very large <style> ... </style> block, and insert rel links to CSS files:
+
+<!-- This was pulled out of the identical inline <style> blocks in the headers of editions 1-4 - it may change. If so, make a new file and refer to it in the newsletter pages going forward -->
+<link rel="stylesheet" href="style/from-headers.css" />
+
+<link rel="stylesheet" href="style/bootstrap-4.3.1.css" />
+<link rel="stylesheet" href="style/font-awesome-5.11.2.css" />
+<link rel="stylesheet" href="style/nav.css" />
+<link rel="stylesheet" href="style/colors.css" />
+<link rel="stylesheet" href="style/btn.css" />
+<link rel="stylesheet" href="style/fonts.css" />
+<link rel="stylesheet" href="style/newsletters.css" />
+<link rel="stylesheet" href="style/color-flow.css" />
+<link rel="shortcut icon" href="img/favicon-32x32.png" />
+
+02. Insert nav bar (found between <!-- NavBar --> ... <!-- END OF NavBar --> comments): DIRECTLY AFTER the first line of <body>
+02a. Edit the navbar links in new and all existing to include your new newsletter. Be sure to add class "active" to the new <a> on the new page, so it's highlighted when you're viewing it.
+
+02b. Add "begin-newsletter" class to the newsletter table found just after the <!-- BEGIN TEMPLATE // -->  comment
+
+03. CTRL+F and search for "templateFooter" , you should find this class on a <td> object.  Go up to the parent of this object, (a <tr>) and place your cursor behind it.  Now, scroll down until you see " *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|* " and you'll see </td> and a </tr> direcly below it.  Highlight all text from your cursors position until AFTER </tr> and delete it.  You have just killed the old footer.
+
+04. Just before the closing </body> tag, paste in the <footer> that you can copy from the other newsletters.
+
+05. Color uniformity:  Sometimes you'll encounter a newsletter which is not using the correct GL-red color. GL-red should be #830000 ,  so you might have to find+replace other values which are trying to be GL-red.
+
+06. Date Stamp: Because this is a re-hosted newsletter, it is beneficial to the reader of the website to know when this information was sent-out / published.  The original emails do not have a date stamp on them because, well, email clients do that for us.  So, it's up to you to put in a date stamp manually, like you see on the other re-hosted newsletters.
+
+07. Fonts and Font-Classes: You'll want to Find+Replace any call for any font and replace it with the value (including single quotes) : 'Montserrat' .  This will make the newsletter use the same font as our website does.
+
+08. Rehosting Images : For faster loading, you may want to consider getting the original images used on the newsletter, then using squoosh.app to squoosh them, and then re-host them in the img directory.
+
+01. Update/create the <title> meta.
+
+10. Update the index.html doc, which is the frontpage for all of the newsletters hosted.
+
+11. Add JS after </footer> and before </html>
+
+12. "Read more" buttons, *sigh*, only the text is wraped as an <a> object.  Its a lot of work to get them corrected. Essentially you must find the <a> for the "Read more" link, and remove any and all <table><tdata><tr><td> that surround it (both before and after it.) Then simply surround the <a> object with <center> </center> and add the following classes to the <a> object:
+    btn btn-lg bg-gl-red btn-gl-readmore
+And viola, you have an actual button, rather than a table-cell with a red background and isolated <a> text within it.

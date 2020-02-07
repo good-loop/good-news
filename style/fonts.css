@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'Montserrat';
+	src:url('../fonts/montserrat-semibold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Open Sans';
+	src:url('../fonts/OpenSans-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'FA Brands';
+	src:url('../fonts/fa-brands-400.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'FA Regular';
+	src:url('../fonts/fa-regular-400.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'FA Solid';
+	src:url('../fonts/fa-solid-900.woff') format('woff');
+}
+
+.gl-font, body {
+	font-family: 'Montserrat';
+}
+
+.fa-brands, .fab {
+	font-family: 'FA Brands';
+}
+
+.fa-regular, .far {
+	font-family: 'FA Regular';
+}
+
+.fa-solid, .fas {
+	font-family: 'FA Solid';
+}

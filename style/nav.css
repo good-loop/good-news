@@ -1,0 +1,123 @@
+.gl-bootstrap-navbar {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+	font-family: 'Open Sans';
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #678;
+	font-size: 1vw;
+	line-height: 1.45;
+	outline-width: 1px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-decoration-line: none;
+	text-size-adjust: 100%;
+
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus, .nav-link {
+	color: #678;
+	text-transform: uppercase;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+	background-color: #830000;
+}
+
+.shadowcaster {
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	box-shadow: 0 1px 3px 1px rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	position: absolute;
+	width: 50px;
+	height: 25px;
+	line-height: 28px;
+	margin-top: 25px;
+	z-index: -1;
+	display: block;
+	text-align: center;
+}
+
+.navbar-gl-icon-container {
+	box-sizing: border-box;
+	color: #678;
+	display: inline-block;
+	position: absolute;
+	text-align: center;
+	z-index: auto;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+
+.navbar-gl-icon {
+	border-radius: 50%;
+	background-color: rgb(248, 249, 250);
+	position: relative;
+	z-index: 0;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+
+.bg-light {
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4);
+}
+
+.fixed-navbar {
+	position: fixed;
+	width: 100%;
+	margin-bottom: 15vh;
+	top: 0;
+	z-index: 999;
+}
+
+#mobileNavbar {
+	position: absolute;
+}
+
+.gl-mobile-nav-btn {
+	background-color: #830000;
+	height: 50px;
+	width: 50px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	line-height: 1.45;
+}
+
+.mobile-only {
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+
+@media (max-width: 992px) {
+	.navbar-gl-icon-container, .desktop-only {
+		display: none;
+	}
+}
+
+@media (max-width: 1px) {
+	.mobile-only {
+		display: block;
+	}
+}
+
+@media (min-width: 992px) {
+	.mobile-only {
+		display: none;
+	}
+}
+
+.mr-auto {
+	background-color: white;
+	box-shadow: 0.05em 0.05em 0.1em rgba(1,1,1,0.5);
+}
