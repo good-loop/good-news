@@ -1,213 +1,242 @@
 .begin-newsletter {
-	margin-top: 15vh;
+    margin-top: 15vh;
 }
 
-.no-text-decoration, .no-text-decoration:hover, .no-text-decoration:focus, .no-text-decoration:active, .no-text-decoration:visited {
-	text-decoration: unset;
+.no-text-decoration,
+.no-text-decoration:hover,
+.no-text-decoration:focus,
+.no-text-decoration:active,
+.no-text-decoration:visited {
+    text-decoration: unset;
 }
 
-.footer-social-btn, .footer-social-btn:hover, .footer-social-btn:focus, .footer-social-btn:active, .footer-social-btn:visited {
-	color: rgb(255,255,255);
-	background-color: rgba(131,0,0,0.5);
-	width: 30px;
-	height: 30px;
-	border-radius: 3px;
-	line-height: 2;
+.footer-social-btn,
+.footer-social-btn:hover,
+.footer-social-btn:focus,
+.footer-social-btn:active,
+.footer-social-btn:visited {
+    color: rgb(255, 255, 255);
+    background-color: rgba(131, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    line-height: 2;
 }
 
 .social-links-div {
-	text-align: center;
+    text-align: center;
 }
 
-.flex-column, .footer-flex-column, .flex-row {
-	display: flex;
+.flex-column,
+.footer-flex-column,
+.flex-row {
+    display: flex;
 }
 
-.flex-column, .footer-flex-column {
-	flex-direction: column;
+.flex-column,
+.footer-flex-column {
+    flex-direction: column;
 }
 
 .flex-row {
-	flex-direction: row;
+    flex-direction: row;
 }
 
 .flex-justify-center {
-	justify-content: center;
+    justify-content: center;
 }
 
 .flex-justify-space-around {
-	justify-content: space-around;
+    justify-content: space-around;
 }
 
 .footer-social-icon {
-	padding-right: 5px;
-	padding-left: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 .footer-text-container {
-	margin-top: 2vh;
+    margin-top: 2vh;
 }
 
 .text-centered {
-	text-align: center;
+    text-align: center;
 }
 
 .text-underlined {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .white-text {
-	color: white;
+    color: white;
 }
 
 .header-img-div {
-	text-align: center;
-	margin-bottom: 5vh;
-	background-image: url(../img/good-news-header.png);
-	background-origin: padding-box;
-	background-position-x: 50%;
-	background-position-y: 50%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 15vh;
+    text-align: center;
+    margin-bottom: 5vh;
+    background-image: url(../img/good-news-header.png);
+    background-origin: padding-box;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 15vh;
 }
 
 .header-text {
-	text-transform: uppercase;
-	font-size: 2vw;
-	line-height: 1.2;
-	font-weight: 700;
-	color: #222;
+    text-transform: uppercase;
+    font-size: 2vw;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #222;
 }
 
 .header-subtext {
-	font-size: 16px;
-	line-height: 1.45;
-	color:#1a1b1f;
-	font-weight: 400;
+    font-size: 16px;
+    line-height: 1.45;
+    color: #1a1b1f;
+    font-weight: 400;
 }
 
 .thumbnail-containing-div {
-	border-radius: 9999px;
-	width: 80px;
-	height: 80px;
-	overflow: hidden;
+    border-radius: 9999px;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
 }
 
 .first-newsletter-thumbnail {
-	background-image: url("../img/gl-infographic-01.png");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/gl-infographic-01.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .second-newsletter-thumbnail {
-	background-image: url("../img/smirnoff-pride.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/smirnoff-pride.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .third-newsletter-thumbnail {
-	background-image: url("../img/b-corp.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/b-corp.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .fourth-newsletter-thumbnail {
-	background-image: url("../img/4th.edition.thumb.original.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/4th.edition.thumb.original.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .fifth-newsletter-thumbnail {
-	background-image: url("../img/ldn.volunteer.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/ldn.volunteer.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .sixth-newsletter-thumbnail {
-	background-image: url("../img/6th.bg.thumb.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/6th.bg.thumb.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .seventh-newsletter-thumbnail {
-	background-image: url("../img/7th.bg.thumb.jpg");
-	background-position: 50% 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	padding-top: 15px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
+    background-image: url("../img/7th.bg.thumb.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
-.newsletter-link, .newsletter-link:hover, .newsletter-link:focus, .newsletter-link:active, .newsletter-link:visited {
-	text-decoration: none;
-	color: #222;
-	font-family: 'Montserrat';
+.eighth-newsletter-thumbnail {
+    background-image: url("../img/8th.bg.thumb.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.newsletter-link,
+.newsletter-link:hover,
+.newsletter-link:focus,
+.newsletter-link:active,
+.newsletter-link:visited {
+    text-decoration: none;
+    color: #222;
+    font-family: 'Montserrat';
 }
 
 .text-italic {
-	font-style: italic;
+    font-style: italic;
 }
 
 .text-smaller {
-	font-size: 0.75em;
+    font-size: 0.75em;
 }
 
 .newsletter-entries-div {
-	padding-top: 1vh;
-	padding-bottom: 1vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
 }
 
 .desktop-margin-top {
-	margin-top: 15vh;
+    margin-top: 15vh;
 }
 
 @media (max-width: 992px) {
-	.desktop-margin-top {
-		margin-top: unset;
-	}
+    .desktop-margin-top {
+        margin-top: unset;
+    }
 }
 
-.gl-btn, .gl-btn:hover, .gl-btn:focus, .gl-btn:visited {
-	text-transform: uppercase;
-	color: white;
-	background-color: #830000;
-	border: unset;
-	border-radius: 4px;
-	padding: 4px 10px 4px 10px;
-	margin: 1vh 1vw 1vh 1vw;
-	line-height: 2;
+.gl-btn,
+.gl-btn:hover,
+.gl-btn:focus,
+.gl-btn:visited {
+    text-transform: uppercase;
+    color: white;
+    background-color: #830000;
+    border: unset;
+    border-radius: 4px;
+    padding: 4px 10px 4px 10px;
+    margin: 1vh 1vw 1vh 1vw;
+    line-height: 2;
 }
