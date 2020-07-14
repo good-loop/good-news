@@ -1,0 +1,54 @@
+.boycotts-and-blocklists-thumbnail {
+    background-image: url("../img/claires-head.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.author-info {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.author-img-div {
+    display: block;
+    height: 3em;
+    width: 3em;
+}
+
+.author-claire {
+    background-image: url('../img/claires-head.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.author-name-span,
+.author-title-span {
+    text-transform: uppercase;
+}
+
+.author-name-span {
+    letter-spacing: 0.25em;
+}
+
+.author-title-span {
+    font-family: 'Open Sans';
+    letter-spacing: 0.1em;
+}
+
+.blog-body-div {
+    margin-bottom: 5em;
+}
+
+.blog-datestamp {
+    font-family: 'tajawal';
+}
+
+.blog-body-text {
+    font-family: 'tajawal';
+}

@@ -1,4 +1,8 @@
 .bg-gl-red {
-	background-color: #830000;
-	background: #830000;
+    background-color: #830000;
+    background: #830000;
+}
+
+.color-red {
+    color: #830000;
 }
