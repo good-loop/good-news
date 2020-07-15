@@ -49,6 +49,27 @@
     font-family: 'tajawal';
 }
 
+.blog-summary-div {
+    margin-bottom: 2em;
+}
+
+.blog-summary-bold {
+    font-weight: 600;
+}
+
 .blog-body-text {
     font-family: 'tajawal';
+}
+
+.blog-hero-img-div {
+    display: block;
+    height: 25em;
+    width: 100%;
+}
+
+.boycotts-and-blocklists-hero-img-div {
+    background-image: url('../img/boycotts.and.blocklists.hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
