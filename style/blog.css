@@ -27,6 +27,13 @@
     background-size: contain;
 }
 
+.author-ryan {
+    background-image: url('../img/ryans-head.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
 .author-name-span,
 .author-title-span {
     text-transform: uppercase;
